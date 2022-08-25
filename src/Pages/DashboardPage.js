@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { PieChart, Pie, Cell, Tooltip, Legend } from "recharts";
 import io from "socket.io-client";
-const socket = io("ws://192.168.114.51:3000/dashboard");
+const socket = io("http://ec2-13-112-157-12.ap-northeast-1.compute.amazonaws.com/dashboard");
 
 function DashboardPage(props) {
   let COLORS = ["#FFA500", "#87CEFA"];
