@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import io from "socket.io-client";
 import "../css/ClientPage.css";
-const socket = io("ws://192.168.114.51:3000/client");
+const socket = io("http://ec2-13-112-157-12.ap-northeast-1.compute.amazonaws.com/client");
 
 function ClientPage(props) {
     const [isConnected, setIsConnected] = useState(socket.connected);
