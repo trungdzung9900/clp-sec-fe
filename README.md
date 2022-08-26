@@ -72,7 +72,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 
 
-# clp-sec-be
+# clp-sec-fe
 # Assignment: <br />
 
 Create a simple application that can lively update a dashboard when a client application clicks on either the orange or blue button. The dashboard must show live updates of the number of clicks without polling the database and display a chart after 5 seconds is elapsed. The game can be reset when the page is refreshed. <br />
